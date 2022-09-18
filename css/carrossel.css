@@ -3,8 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #5a5a5a;
 }
 
@@ -14,7 +14,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -24,7 +24,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 30rem;
 }
 
 
@@ -68,17 +68,18 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+
+    
   }
+}
 
   .featurette-heading {
     font-size: 50px;
   }
-}
+
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 }
-
-
